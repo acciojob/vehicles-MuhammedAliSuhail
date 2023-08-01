@@ -44,7 +44,7 @@ public class Car extends Vehicle {
         this.gears = gears;
     }
 
-    public boolean isIsManual() {
+    public boolean getIsManual() {
         return isManual;
     }
 
