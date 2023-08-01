@@ -44,11 +44,11 @@ public class Car extends Vehicle {
         this.gears = gears;
     }
 
-    public boolean getIsManual() {
+    public boolean isManual() {
         return isManual;
     }
 
-    public void setIsManual(boolean isManual) {
+    public void setisManual(boolean isManual) {
         this.isManual = isManual;
     }
 
