@@ -45,6 +45,8 @@ public class Car extends Vehicle {
     }
 
     public boolean isManual() {
+        
+         
         return isManual;
     }
 
@@ -79,6 +81,7 @@ public class Car extends Vehicle {
         this.isManual=isManual;
         this.type=type;
         this.seats=seats;
+        this.currentGear=1;
     }
 
     public Car(boolean isManual, String name) {
